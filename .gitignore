@@ -1,19 +1,19 @@
-tests/test.yml
-site
-.vagrant
-*.retry
-*.log
-inventories
-.cache
-roles/bertvv.samba
-roles/geerlingguy.docker
-roles/geerlingguy.nfs
+# tests/test.yml
+# site
+# .vagrant
+# *.retry
+# *.log
+# inventories
+# .cache
+# roles/bertvv.samba
+# roles/geerlingguy.docker
+# roles/geerlingguy.nfs
 
-# Vim
-[._]sw[a-p]
+# # Vim
+# [._]sw[a-p]
 
-# Session
-Session.vim
+# # Session
+# Session.vim
 
-# IntelliJ
-/.idea/
+# # IntelliJ
+# /.idea/
