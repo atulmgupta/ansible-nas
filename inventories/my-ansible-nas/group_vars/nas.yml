@@ -16,3 +16,41 @@ ansible_nas_timezone: Etc/UTC
 ## Enable some applications
 heimdall_enabled: true
 portainer_enabled: true
+
+
+stats_enabled: false
+guacamole_enabled: false
+virtual_desktop_enabled: false
+krusader_enabled: false
+
+# Backup & Restore
+timemachine_enabled: false
+
+# IRC
+thelounge_enabled: false
+
+# Wallabag
+wallabag_enabled: false
+
+# Home Automation
+mosquitto_enabled: false
+openhab_enabled: false
+
+# Books
+calibre_enabled: false
+
+# Ubooquity
+ubooquity_enabled: false
+
+# Joomla
+joomla_enabled: false
+
+###
+### General
+###
+
+# Will be added to the docker group to give user command line access to docker
+ansible_nas_user: atulmgupta
+
+# Your email and domain, used for Let's Encrypt SSL certs
+ansible_nas_email: atulmgupta@outlook.com
