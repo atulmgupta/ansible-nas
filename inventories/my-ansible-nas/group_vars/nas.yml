@@ -18,39 +18,41 @@ heimdall_enabled: true
 portainer_enabled: true
 
 
-stats_enabled: false
-guacamole_enabled: false
-virtual_desktop_enabled: false
-krusader_enabled: false
+stats_enabled: true
+guacamole_enabled: true
+virtual_desktop_enabled: true
+krusader_enabled: true
 
 # Backup & Restore
-timemachine_enabled: false
+timemachine_enabled: true
 
 # IRC
-thelounge_enabled: false
+thelounge_enabled: true
 
 # Wallabag
-wallabag_enabled: false
+wallabag_enabled: true
 
 # Home Automation
-mosquitto_enabled: false
-openhab_enabled: false
+mosquitto_enabled: true
+openhab_enabled: true
 
 # Books
-calibre_enabled: false
+calibre_enabled: true
 
 # Ubooquity
-ubooquity_enabled: false
+ubooquity_enabled: true
 
 # Joomla
-joomla_enabled: false
+joomla_enabled: true
 
 ###
 ### General
 ###
 
-# Will be added to the docker group to give user command line access to docker
 ansible_nas_user: atulmgupta
 
 # Your email and domain, used for Let's Encrypt SSL certs
 ansible_nas_email: atulmgupta@outlook.com
+
+# Applications will have subdomain SSL certificates created if Traefik is enabled, e.g. ansible-nas.<your-domain>, nextcloud.<your-domain>
+ansible_nas_domain: ansible-nas.atulgupta.me
